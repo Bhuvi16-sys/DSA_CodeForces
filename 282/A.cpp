@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+    int x = 0;
+
+    // Read 'n' statements inside a loop
+    while (n--) {
+        string s;
+        cin >> s;
+
+        if (s[1] == '+') {
+            x++;
+        } else {
+            x--;
+        }
+    }
+
+    cout << x << endl;
+    return 0;
+}
