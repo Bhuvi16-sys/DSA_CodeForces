@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    long long x1,y1;
+    long long x2,y2;
+   if (cin >> x1 >> y1 >> x2 >> y2) {
+        cout << max(abs(x1 - x2), abs(y1 - y2)) << "\n";
+    }
+    return 0;
+
+}
